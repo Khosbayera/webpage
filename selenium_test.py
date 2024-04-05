@@ -13,7 +13,7 @@ driver.get("https://khosbayera.github.io/webpage/")  # Update this with the path
 time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
-assert "welcome to my web" in driver.title
+assert "My Awesome Web >" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
